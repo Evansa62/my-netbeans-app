@@ -21,7 +21,7 @@ public class HungerStatus {
         System.out.println("Hi there what is your name"); 
         String name = hunger.nextLine();
         
-        System.out.println("Hi " + name + "what is your favourite meal");
+        System.out.println("Hey " + name + "what is your favourite meal");
         
         System.out.println("Hi " + name + " are you hungry? (yes/no)");
         String hungry = hunger.nextLine().toLowerCase();//priming input
